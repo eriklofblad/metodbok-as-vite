@@ -1,5 +1,5 @@
 .top-container {
-  @apply md:flex md:gap-5 md:items-start mb-3;
+  @apply md:flex md:gap-5 md:items-start mb-5;
 }
 
 .left-info-container {
@@ -7,19 +7,23 @@
 }
 
 .right-info-container {
-  @apply overflow-hidden rounded-md shadow-md;
+  @apply overflow-hidden rounded-md shadow-md mt-4 md:mt-0;
+}
+
+.right-info-container > div {
+  @apply p-3;
 }
 
 .yellow-container {
-  @apply bg-yellow-200 p-3 text-yellow-800;
+  @apply bg-yellow-200 text-yellow-800 !important;
 }
 
 .pink-container {
-  @apply bg-blue-200 p-3 text-blue-800;
+  @apply bg-blue-200 text-blue-800 !important;
 }
 
 .orange-container {
-  @apply bg-red-200 p-3 text-red-800;
+  @apply bg-red-200 text-red-800 !important;
 }
 
 .as-table {
