@@ -1,0 +1,17 @@
+{
+  "name": "metodbok-as-vite",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.6.4"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  }
+}
