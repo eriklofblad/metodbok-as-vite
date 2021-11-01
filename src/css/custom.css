@@ -14,6 +14,10 @@
   @apply p-3;
 }
 
+.right-info-container p {
+  @apply text-current;
+}
+
 .yellow-container {
   @apply bg-yellow-200 text-yellow-800 !important;
 }
