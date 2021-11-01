@@ -17,9 +17,9 @@
 }
 
 .left-info-container {
-  border-radius: 0.375rem;
+  border-radius: 0.25rem;
   --tw-bg-opacity: 1;
-  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
+  background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 0.75rem;
@@ -31,7 +31,9 @@
 .right-info-container {
   margin-top: 1rem;
   overflow: hidden;
-  border-radius: 0.375rem;
+  border-radius: 0.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
   --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
 }
@@ -59,16 +61,16 @@
 
 .pink-container {
   --tw-bg-opacity: 1 !important;
-  background-color: rgba(191, 219, 254, var(--tw-bg-opacity)) !important;
+  background-color: rgba(254, 202, 202, var(--tw-bg-opacity)) !important;
   --tw-text-opacity: 1 !important;
-  color: rgba(30, 64, 175, var(--tw-text-opacity)) !important
+  color: rgba(153, 27, 27, var(--tw-text-opacity)) !important
 }
 
 .orange-container {
   --tw-bg-opacity: 1 !important;
-  background-color: rgba(254, 202, 202, var(--tw-bg-opacity)) !important;
+  background-color: rgba(191, 219, 254, var(--tw-bg-opacity)) !important;
   --tw-text-opacity: 1 !important;
-  color: rgba(153, 27, 27, var(--tw-text-opacity)) !important
+  color: rgba(30, 64, 175, var(--tw-text-opacity)) !important
 }
 
 .as-table {

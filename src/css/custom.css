@@ -3,11 +3,11 @@
 }
 
 .left-info-container {
-  @apply bg-gray-200 px-4 py-3 rounded-md shadow-md;
+  @apply bg-gray-100 px-4 py-3 rounded shadow-md;
 }
 
 .right-info-container {
-  @apply overflow-hidden rounded-md shadow-md mt-4 md:mt-0;
+  @apply bg-gray-100 overflow-hidden rounded shadow-md mt-4 md:mt-0;
 }
 
 .right-info-container > div {
@@ -23,11 +23,11 @@
 }
 
 .pink-container {
-  @apply bg-blue-200 text-blue-800 !important;
+  @apply bg-red-200 text-red-800 !important;
 }
 
 .orange-container {
-  @apply bg-red-200 text-red-800 !important;
+  @apply bg-blue-200 text-blue-800 !important;
 }
 
 .as-table {
