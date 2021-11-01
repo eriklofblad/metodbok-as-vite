@@ -1,21 +1,25 @@
 .top-container {
-  @apply md:flex md:gap-3 mb-3;
+  @apply md:flex md:gap-5 md:items-start mb-3;
+}
+
+.left-info-container {
+  @apply bg-gray-200 px-4 py-3 rounded-md shadow-md;
 }
 
 .right-info-container {
-  @apply bg-gray-200 px-4 py-3 rounded-md;
+  @apply overflow-hidden rounded-md shadow-md;
 }
 
 .yellow-container {
-  @apply bg-yellow-200 p-3 rounded-t-md;
+  @apply bg-yellow-200 p-3 text-yellow-800;
 }
 
 .pink-container {
-  @apply bg-purple-200 p-3;
+  @apply bg-blue-200 p-3 text-blue-800;
 }
 
 .orange-container {
-  @apply bg-red-200 p-3 rounded-b-md;
+  @apply bg-red-200 p-3 text-red-800;
 }
 
 .as-table {
