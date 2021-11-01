@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        orange: colors.orange
+        orange: colors.orange,
+        metodbok: "#4e79cc"
       }
     },
   },
