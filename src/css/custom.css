@@ -1,0 +1,31 @@
+.top-container {
+  @apply md:flex md:gap-3 mb-3;
+}
+
+.right-info-container {
+  @apply bg-gray-200 px-4 py-3 rounded-md;
+}
+
+.yellow-container {
+  @apply bg-yellow-200 p-3 rounded-t-md;
+}
+
+.pink-container {
+  @apply bg-purple-200 p-3;
+}
+
+.orange-container {
+  @apply bg-red-200 p-3 rounded-b-md;
+}
+
+.as-table {
+  @apply border-2 border-blue-700;
+}
+
+.as-table > tbody > tr > td {
+  @apply text-center py-2 border-t border-gray-400 border-l w-1/4;
+}
+
+.as-table > tbody > tr:nth-child(2n) {
+  @apply bg-gray-100;
+}

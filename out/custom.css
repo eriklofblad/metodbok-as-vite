@@ -1,0 +1,67 @@
+.top-container {
+  margin-bottom: 0.75rem
+}
+
+@media (min-width: 768px) {
+  .top-container {
+    display: flex
+  }
+
+  .top-container {
+    gap: 0.75rem
+  }
+}
+
+.right-info-container {
+  border-radius: 0.375rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem
+}
+
+.yellow-container {
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
+  padding: 0.75rem
+}
+
+.pink-container {
+  --tw-bg-opacity: 1;
+  background-color: rgba(221, 214, 254, var(--tw-bg-opacity));
+  padding: 0.75rem
+}
+
+.orange-container {
+  border-bottom-right-radius: 0.375rem;
+  border-bottom-left-radius: 0.375rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(254, 202, 202, var(--tw-bg-opacity));
+  padding: 0.75rem
+}
+
+.as-table {
+  border-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgba(29, 78, 216, var(--tw-border-opacity))
+}
+
+.as-table > tbody > tr > td {
+  width: 25%;
+  border-top-width: 1px;
+  border-left-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgba(156, 163, 175, var(--tw-border-opacity));
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center
+}
+
+.as-table > tbody > tr:nth-child(2n) {
+  --tw-bg-opacity: 1;
+  background-color: rgba(243, 244, 246, var(--tw-bg-opacity))
+}
