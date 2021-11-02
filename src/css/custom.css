@@ -36,6 +36,7 @@
 
 .as-table {
   @apply border-2 border-metodbok;
+  overflow-x: auto;
 }
 
 .as-table > tbody > tr > td {

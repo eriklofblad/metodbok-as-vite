@@ -82,6 +82,7 @@
   border-width: 2px;
   --tw-border-opacity: 1;
   border-color: rgba(78, 121, 204, var(--tw-border-opacity));
+  overflow-x: auto;
 }
 
 .as-table > tbody > tr > td {
