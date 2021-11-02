@@ -1,5 +1,12 @@
+h2,
+h3,
+h4,
+h5 {
+  @apply font-semibold uppercase;
+}
+
 .top-container {
-  @apply md:flex md:gap-5 md:items-start mb-5;
+  @apply md:flex md:gap-5 md:items-start mb-5 w-full;
 }
 
 .top-container ul {
@@ -7,11 +14,11 @@
 }
 
 .left-info-container {
-  @apply bg-gray-100 px-4 py-3 rounded-md shadow-md;
+  @apply bg-gray-100 px-4 py-3 rounded-md shadow-md md:w-3/5;
 }
 
 .right-info-container {
-  @apply bg-gray-100 overflow-hidden rounded-md shadow-md mt-4 md:mt-0;
+  @apply bg-gray-100 overflow-hidden rounded-md shadow-md mt-4 md:mt-0 md:w-2/5;
 }
 
 .right-info-container > div {
@@ -35,8 +42,7 @@
 }
 
 .as-table {
-  @apply border-2 border-metodbok;
-  overflow-x: auto;
+  @apply border-2 mt-3 border-metodbok;
 }
 
 .as-table > tbody > tr > td {
@@ -57,4 +63,12 @@
 
 .image-grid p {
   @apply mt-1;
+}
+
+.text-grid {
+  @apply md:grid md:grid-cols-2;
+}
+
+.text-grid h3 {
+  @apply mb-1 mt-3;
 }

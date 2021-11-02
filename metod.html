@@ -13,14 +13,14 @@
       type="text/javascript"
     ></script>
   </head>
-  <body>
-    <div class="mt-5 px-5 md:w-1/2 md:mx-auto">
+  <body class="bg-gray-200">
+    <div class="mt-5 px-5 md:w-3/5 md:mx-auto bg-white rounded py-6">
       <div class="top-container">
         <div class="left-info-container">
-          <h3>Fr&aring;gest&auml;llning/indikation:</h3>
+          <h3>Fr&aring;gest&auml;llning/indikation</h3>
           <p>Tum&ouml;r, metastaser,&nbsp;infektion mm</p>
           <br />
-          <h3>F&ouml;rberedelser:</h3>
+          <h3>F&ouml;rberedelser</h3>
           <ul>
             <li>PVK (rosa/gr&ouml;n).</li>
             <li>
@@ -55,29 +55,36 @@
         </div>
       </div>
       <hr />
-      <h3>
-        <strong>CT protokoll:<em>Thorax/THORAX_BUK_venfas</em></strong>
-      </h3>
-      <h4>
-        <strong>Topogram:</strong> 512-700 mm. Start ovan axlarna. Cran-kaudal
-        scanriktning
-      </h4>
-      <h4>
-        <strong><span>Patientposition:&nbsp;</span></strong
-        ><span>Feet first/supine</span>
-      </h4>
-      <h4>
-        <strong><span>Andningsinstruktion:&nbsp;</span></strong
-        ><span>Andas in, h&aring;ll andan</span>
-      </h4>
+      <div class="text-grid">
+        <div>
+          <h3>DT protokoll</h3>
+          <p>Thorax/THORAX_BUK_venfas</p>
+        </div>
+        <div>
+          <h3>Topogram</h3>
+          <p>512-700 mm. Start ovan axlarna. Cran-kaudal scanriktning</p>
+        </div>
+        <div>
+          <h3>Patientposition</h3>
+          <p>Feet first/supine</p>
+        </div>
+        <div>
+          <h3>Andningsinstruktion</h3>
+          <p>Andas in, h&aring;ll andan</p>
+        </div>
+      </div>
       <hr />
-      <h4>
-        <span
-          ><strong>Kontrastmedel iv:</strong>&nbsp;Viktbaserat,
-          350-400mgI/ml</span
-        >
-      </h4>
-      <div style="overflow-x: scroll">
+      <div class="text-grid">
+        <div>
+          <h3>Kontrastmedel iv</h3>
+          <p>Viktbaserat, 350-400mgI/ml</p>
+        </div>
+        <div>
+          <h3>Injektionstid</h3>
+          <p>25-30 sekunder</p>
+        </div>
+      </div>
+      <div style="overflow-x: auto">
         <table class="as-table" cellpadding="5" cellspacing="0">
           <tbody>
             <tr>
@@ -115,25 +122,12 @@
           </tbody>
         </table>
       </div>
-      <p>
-        <span style="font-size: 18px"
-          ><strong>Injektionstid:</strong> 25-30 sekunder&nbsp;</span
-        >
-      </p>
       <hr />
-      <p>
-        <strong><span style="font-size: 18px">Scanomr&aring;de:</span></strong>
-      </p>
-      <p>
-        <span style="font-size: 18px"
-          >Thorax: 4-5 cm ovan apex till lungbaserna</span
-        >
-      </p>
-      <p>
-        <span style="font-size: 18px"
-          >Buk: Diafragma till leverspets alt. trochanter minor</span
-        >
-      </p>
+      <h3 class="mb-1 mt-3 text-gray-600 font-semibold uppercase">
+        Scanomr&aring;de
+      </h3>
+      <p>Thorax: 4-5 cm ovan apex till lungbaserna</p>
+      <p>Buk: Diafragma till leverspets alt. trochanter minor</p>
       <div class="image-grid">
         <div>
           <h4>Buk &ouml;vre, nativ</h4>
@@ -164,9 +158,7 @@
         </div>
       </div>
       <hr />
-      <p>
-        <span style="font-size: 18px"><strong>Bolus Tracking:</strong></span>
-      </p>
+      <h3 class="text-gray-600 font-semibold uppercase">Bolus Tracking</h3>
       <div class="image-grid">
         <div>
           <h4>Testbolusniv&aring;</h4>
@@ -225,7 +217,7 @@
       <div id="extra-content" style="display: none">
         <!-- Numrera flikarna 1, 2, 3 osv. och ange id till motsvarande tabcontent i funktionen openTab -->
         <div class="tab">
-          <a class="tablinks" href="javascript:openTab(1, 'Buk')">Buk</a>
+          <a class="tablinks active" href="javascript:openTab(1, 'Buk')">Buk</a>
           <a class="tablinks" href="javascript:openTab(2, 'Thorax')">Thorax</a>
         </div>
         <div class="tabcontent" id="Buk">

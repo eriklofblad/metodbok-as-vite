@@ -8,7 +8,8 @@ module.exports = {
     extend: {
       colors:{
         orange: colors.orange,
-        metodbok: "#4e79cc"
+        metodbok: "#4e79cc",
+        gray: colors.trueGray
       }
     },
   },
