@@ -3,7 +3,7 @@
 }
 
 .top-container ul {
-  padding-inline-start: 1rem;
+  padding-inline-start: inherit;
 }
 
 .left-info-container {

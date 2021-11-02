@@ -17,8 +17,8 @@
 }
 
 .top-container ul {
-  -webkit-padding-start: 1rem;
-          padding-inline-start: 1rem;
+  -webkit-padding-start: inherit;
+          padding-inline-start: inherit;
 }
 
 .left-info-container {
