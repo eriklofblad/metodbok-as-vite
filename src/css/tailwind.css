@@ -14,6 +14,10 @@ h4 {
   @apply text-lg;
 }
 
+hr {
+  @apply my-2;
+}
+
 /* Styling för tabbar */
 a.tablinks {
   margin-right: 5px;
