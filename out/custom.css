@@ -114,6 +114,7 @@ h2, h3, h4, h5 {
 .as-table {
   margin-top: 0.75rem;
   border-width: 2px;
+  border-style: solid;
   --tw-border-opacity: 1;
   border-color: #4e79cc;
   border-color: rgba(78, 121, 204, var(--tw-border-opacity));
@@ -123,6 +124,7 @@ h2, h3, h4, h5 {
   width: 25%;
   border-top-width: 1px;
   border-left-width: 1px;
+  border-style: solid;
   --tw-border-opacity: 1;
   border-color: #a3a3a3;
   border-color: rgba(163, 163, 163, var(--tw-border-opacity));

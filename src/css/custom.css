@@ -42,11 +42,11 @@ h5 {
 }
 
 .as-table {
-  @apply border-2 mt-3 border-metodbok;
+  @apply border-2 mt-3 border-metodbok border-solid;
 }
 
 .as-table > tbody > tr > td {
-  @apply text-center py-2 border-t border-gray-400 border-l w-1/4;
+  @apply text-center py-2 border-t border-l border-solid border-gray-400  w-1/4;
 }
 
 .as-table > tbody > tr:nth-child(2n) {
