@@ -51,5 +51,5 @@
 }
 
 .image-grid > div {
-  @apply flex flex-col items-center;
+  @apply flex flex-col items-center w-[45%] md:w-1/5;
 }
