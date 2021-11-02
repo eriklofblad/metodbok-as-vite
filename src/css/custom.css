@@ -42,7 +42,7 @@ h5 {
 }
 
 .as-table {
-  @apply border-2 mt-3 border-metodbok border-solid;
+  @apply border-2 mt-3 border-metodbok border-solid border-collapse;
 }
 
 .as-table > tbody > tr > td {
