@@ -48,7 +48,7 @@
 }
 
 .image-grid {
-  @apply flex justify-evenly flex-wrap lg:flex-nowrap mt-3 gap-1;
+  @apply flex justify-evenly flex-wrap lg:flex-nowrap mt-3 mb-3 gap-1;
 }
 
 .image-grid > div {
