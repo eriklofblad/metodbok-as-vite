@@ -199,21 +199,6 @@
 
       <div id="document-insert"></div>
       <div>
-        <script>
-          function getOtherDocument() {
-            console.log("running script");
-            const targetDiv = document.getElementById("document-insert");
-
-            fetch(
-              "https://region-uppsala.humany.net/metodbok-as/guides/2337?client=a8f4b339-401f-e3a8-a004-44cd427c1cde&funnel=metodbok-as&phrase=&p.LastGuideId=2337&credentials=true",
-              { method: "POST", credentials: "same-origin" }
-            )
-              .then((res) => res.json())
-              .then((json) => {
-                console.log(json);
-              });
-          }
-        </script>
         <a href="javascript:getOtherDocument()">Kör script</a>
       </div>
       <hr />
