@@ -42,15 +42,31 @@ h5 {
 }
 
 .as-table {
-  @apply border-2 mt-3 border-metodbok;
+  @apply my-3 shadow-md border-collapse rounded overflow-hidden w-3/4 mx-2;
 }
 
-.as-table > tbody > tr > td {
-  @apply text-center py-2 border-t border-gray-400 border-l w-1/4;
+.as-table td {
+  @apply text-center py-2 border-t border-l border-r-0 border-b-0 border-solid border-gray-200 w-1/4;
 }
 
-.as-table > tbody > tr:nth-child(2n) {
+.as-table thead td {
+  @apply border-t-0;
+}
+
+.as-table td:nth-child(1) {
+  @apply border-l-0;
+}
+
+.as-table thead {
+  @apply font-semibold bg-gray-200;
+}
+
+.as-table tr:nth-child(2n) {
   @apply bg-gray-100;
+}
+
+.as-table tr {
+  @apply hover:bg-blue-100 hover:text-blue-900;
 }
 
 .image-grid {
