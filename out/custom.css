@@ -109,7 +109,6 @@ h2, h3, h4, h5 {
   margin-bottom: 0.75rem;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
-  width: 75%;
   border-collapse: collapse;
   overflow: hidden;
   border-radius: 0.25rem;
@@ -117,7 +116,7 @@ h2, h3, h4, h5 {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.as-table td {
+.as-table td, .as-table th {
   border-top-width: 1px;
   border-left-width: 1px;
   border-right-width: 0px;

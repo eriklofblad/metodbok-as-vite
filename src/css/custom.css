@@ -42,10 +42,11 @@ h5 {
 }
 
 .as-table {
-  @apply my-3 shadow-md border-collapse rounded overflow-hidden w-3/4 mx-2;
+  @apply my-3 shadow-md border-collapse rounded overflow-hidden mx-2;
 }
 
-.as-table td {
+.as-table td,
+.as-table th {
   @apply text-center py-2 border-t border-l border-r-0 border-b-0 border-solid border-gray-200;
 }
 
