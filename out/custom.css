@@ -157,11 +157,15 @@ h2, h3, h4, h5 {
   border-color: rgba(229, 229, 229, var(--tw-border-opacity));
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   text-align: center;
 }
 
 .as-table thead td, .as-table thead th {
   border-top-width: 0px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .as-table td:nth-child(1) {
