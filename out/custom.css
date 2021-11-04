@@ -118,7 +118,6 @@ h2, h3, h4, h5 {
 }
 
 .as-table td {
-  width: 25%;
   border-top-width: 1px;
   border-left-width: 1px;
   border-right-width: 0px;
@@ -132,7 +131,7 @@ h2, h3, h4, h5 {
   text-align: center;
 }
 
-.as-table thead td {
+.as-table thead td, .as-table thead th {
   border-top-width: 0px;
 }
 

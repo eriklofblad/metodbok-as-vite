@@ -46,10 +46,11 @@ h5 {
 }
 
 .as-table td {
-  @apply text-center py-2 border-t border-l border-r-0 border-b-0 border-solid border-gray-200 w-1/4;
+  @apply text-center py-2 border-t border-l border-r-0 border-b-0 border-solid border-gray-200;
 }
 
-.as-table thead td {
+.as-table thead td,
+.as-table thead th {
   @apply border-t-0;
 }
 
