@@ -28,7 +28,6 @@ h2, h3, h4, h5 {
 }
 
 .left-info-container {
-  border-radius: 0.375rem;
   --tw-bg-opacity: 1;
   background-color: #f5f5f5;
   background-color: rgba(245, 245, 245, var(--tw-bg-opacity));
@@ -36,8 +35,6 @@ h2, h3, h4, h5 {
   padding-right: 1rem;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 @media (min-width: 768px) {
@@ -48,6 +45,21 @@ h2, h3, h4, h5 {
 }
 
 .right-info-container {
+  margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+
+  .right-info-container {
+    margin-top: 0px;
+  }
+
+  .right-info-container {
+    width: 40%;
+  }
+}
+
+.right-info-container-new {
   margin-top: 1rem;
   overflow: hidden;
   border-radius: 0.375rem;
@@ -60,11 +72,11 @@ h2, h3, h4, h5 {
 
 @media (min-width: 768px) {
 
-  .right-info-container {
+  .right-info-container-new {
     margin-top: 0px;
   }
 
-  .right-info-container {
+  .right-info-container-new {
     width: 40%;
   }
 }
@@ -79,6 +91,24 @@ h2, h3, h4, h5 {
 
 .yellow-container {
   --tw-bg-opacity: 1 !important;
+  background-color: #ffffcc !important;
+  background-color: rgba(255, 255, 204, var(--tw-bg-opacity)) !important;
+}
+
+.pink-container {
+  --tw-bg-opacity: 1 !important;
+  background-color: #ffccff !important;
+  background-color: rgba(255, 204, 255, var(--tw-bg-opacity)) !important;
+}
+
+.orange-container {
+  --tw-bg-opacity: 1 !important;
+  background-color: #ff9966 !important;
+  background-color: rgba(255, 153, 102, var(--tw-bg-opacity)) !important;
+}
+
+.right-info-container-new .yellow-container {
+  --tw-bg-opacity: 1 !important;
   background-color: #fde68a !important;
   background-color: rgba(253, 230, 138, var(--tw-bg-opacity)) !important;
   --tw-text-opacity: 1 !important;
@@ -86,7 +116,7 @@ h2, h3, h4, h5 {
   color: rgba(120, 53, 15, var(--tw-text-opacity)) !important;
 }
 
-.pink-container {
+.right-info-container-new .pink-container {
   --tw-bg-opacity: 1 !important;
   background-color: #fecaca !important;
   background-color: rgba(254, 202, 202, var(--tw-bg-opacity)) !important;
@@ -95,7 +125,7 @@ h2, h3, h4, h5 {
   color: rgba(127, 29, 29, var(--tw-text-opacity)) !important;
 }
 
-.orange-container {
+. .right-info-container-new .orange-container {
   --tw-bg-opacity: 1 !important;
   background-color: #bfdbfe !important;
   background-color: rgba(191, 219, 254, var(--tw-bg-opacity)) !important;
