@@ -125,7 +125,7 @@ h2, h3, h4, h5 {
   color: rgba(127, 29, 29, var(--tw-text-opacity)) !important;
 }
 
-. .right-info-container-new .orange-container {
+.right-info-container-new .orange-container {
   --tw-bg-opacity: 1 !important;
   background-color: #bfdbfe !important;
   background-color: rgba(191, 219, 254, var(--tw-bg-opacity)) !important;
@@ -225,7 +225,13 @@ h2, h3, h4, h5 {
 }
 
 .image-grid p {
-  margin-top: 0.25rem;
+  margin-top: 0.125rem;
+  margin-bottom: 0.125rem;
+}
+
+.image-grid img {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 @media (min-width: 768px) {
