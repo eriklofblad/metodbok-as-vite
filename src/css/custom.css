@@ -2,7 +2,7 @@ h2,
 h3,
 h4,
 h5 {
-  @apply font-semibold uppercase;
+  @apply font-semibold;
 }
 
 .top-container {

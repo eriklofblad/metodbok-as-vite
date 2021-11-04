@@ -1,15 +1,26 @@
 // example docID = 2337
 
 function getOtherDocument(docId) {
-  console.log("running script");
-  const targetDiv = document.getElementById("document-insert");
-
-  fetch("https://region-uppsala.humany.net/metodbok-as/guides/" + docId, {
-    method: "POST",
-    credentials: "same-origin",
-  })
+  const body = fetch(
+    "https://region-uppsala.humany.net/metodbok-as/guides/" + docId,
+    {
+      method: "GET",
+      credentials: "same-origin",
+    }
+  )
     .then((res) => res.json())
     .then((json) => {
-      console.log(json);
+      return json.Body;
     });
+
+  return body;
 }
+
+console.log("running script");
+const targetDiv = document.getElementById("document-insert");
+
+const insertId = targetDiv.getAttribute("data-insert-id");
+
+getOtherDocument(insertId).then((insertBody) => {
+  targetDiv.innerHTML = insertBody;
+});
