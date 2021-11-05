@@ -5,6 +5,14 @@ h5 {
   @apply font-semibold;
 }
 
+main h3 {
+  @apply text-xl;
+}
+
+main h4 {
+  @apply text-lg;
+}
+
 .top-container {
   @apply md:flex md:gap-5 md:items-start mb-5 w-full;
 }
