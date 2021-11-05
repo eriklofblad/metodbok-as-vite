@@ -61,7 +61,7 @@ main h4 {
   @apply bg-red-200 text-red-900 !important;
 }
 
-. .right-info-container-new .orange-container {
+.right-info-container-new .orange-container {
   @apply bg-blue-200 text-blue-900 !important;
 }
 
@@ -104,7 +104,11 @@ main h4 {
 }
 
 .image-grid p {
-  @apply mt-1;
+  @apply my-0.5;
+}
+
+.image-grid img {
+  @apply my-3;
 }
 
 .text-grid {
