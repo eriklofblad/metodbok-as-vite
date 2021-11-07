@@ -1,0 +1,133 @@
+{
+  "Body": "<table border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 100%;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"border-color: rgb(238, 238, 238); width: 65%; vertical-align: top; background-color: rgb(238, 238, 238);\">\n\t\t\t<h3>Fr&aring;gest&auml;llning/indikation</h3>\n\n\t\t\t<p>K&auml;rldissektion</p>\n\n\t\t\t<h3>F&ouml;rberedelser</h3>\n\n\t\t\t<p>&nbsp;</p>\n\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td style=\"border-color: rgb(255, 255, 255); width: 2%; background-color: rgb(255, 255, 255);\">&nbsp;</td>\n\t\t\t<td style=\"border-color: rgb(238, 238, 238); width: 33%; vertical-align: top; background-color: rgb(255, 255, 255);\">\n\t\t\t<table cellpadding=\"1\" cellspacing=\"1\" style=\"width: 100%;\">\n\t\t\t\t<tbody>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td style=\"width: 30%; background-color: rgb(255, 255, 255);\">M10</td>\n\t\t\t\t\t\t<td style=\"width: 65%; background-color: rgb(255, 255, 255);\">Alla</td>\n\t\t\t\t\t\t<td style=\"background-color: rgb(255, 255, 255);\">&nbsp;</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td style=\"width: 30%; background-color: rgb(255, 255, 255);\">\n\t\t\t\t\t\t<p>bokningstid<br />\n\t\t\t\t\t\t20 (3T) / 30 (1,5T)</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td style=\"width: 65%; background-color: rgb(255, 255, 255);\">komplexitet</td>\n\t\t\t\t\t\t<td style=\"background-color: rgb(255, 255, 255);\">&nbsp;</td>\n\t\t\t\t\t</tr>\n\t\t\t\t</tbody>\n\t\t\t</table>\n\n\t\t\t<table border=\"0\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 100%;\">\n\t\t\t\t<tbody>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td style=\"background-color: rgb(255, 255, 255);\">&nbsp;</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td style=\"background-color: rgb(255, 255, 204);\">Kontrastmedel: Nativ</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td style=\"background-color: rgb(255, 204, 255);\">Vid graviditet: Prioriterande radiolog g&ouml;r ber&auml;ttigandebed&ouml;mning. Se <a href=\"https://ltuppsala.sharepoint.com/sites/o365grp1489/Delade%20dokument/Forms/AllItems.aspx?id=%2Fsites%2Fo365grp1489%2FDelade%20dokument%2FRAD%2DMR%2DA201%2DIN22%2Dv1%5FRiktlinje%5FGraviditet%2Epdf&amp;parent=%2Fsites%2Fo365grp1489%2FDelade%20dokument&amp;p=true&amp;originalPath=aHR0cHM6Ly9sdHVwcHNhbGEuc2hhcmVwb2ludC5jb20vOmI6L3MvbzM2NWdycDE0ODkvRWU0RDNpbi1HNk5Fc3o4d18yRGdWVm9CWWtqWFhpY08xQmNISkJ1dUpnYjN6Zz9ydGltZT1OaWVWdnZyQjJFZw\">riktlinje</a>.</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td style=\"border-color: rgb(255, 255, 255); background-color: rgb(255, 153, 102);\">H&auml;r st&aring;r metodspecifika risker, t ex kontrastmedel, MR-s&auml;kerhet etc</td>\n\t\t\t\t\t</tr>\n\t\t\t\t</tbody>\n\t\t\t</table>\n\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<hr />\n<table>\n\t<colgroup>\n\t\t<col />\n\t</colgroup>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"text-align: left; vertical-align: middle;\">\n\t\t\t<p>&nbsp;</p>\n\n\t\t\t<h3>PROTOKOLL</h3>\n\n\t\t\t<p><strong>HJ&Auml;RNA</strong></p>\n\n\t\t\t<ul>\n\t\t\t\t<li>DWI tra 4mm<br />\n\t\t\t\t&nbsp;</li>\n\t\t\t\t<li>T2 TSE tra 4mm<br />\n\t\t\t\t&nbsp;</li>\n\t\t\t\t<li>DWI cor 3mm\n\t\t\t\t<ul>\n\t\t\t\t\t<li>Hj&auml;rnstammen</li>\n\t\t\t\t</ul>\n\t\t\t\t</li>\n\t\t\t</ul>\n\n\t\t\t<p><strong>HALS:</strong></p>\n\n\t\t\t<ul>\n\t\t\t\t<li>3D ToF tra 4mm\n\t\t\t\t<ul>\n\t\t\t\t\t<li>fr&aring;n C6 till och med a.cerebri media<br />\n\t\t\t\t\t​​​​​​​</li>\n\t\t\t\t</ul>\n\t\t\t\t</li>\n\t\t\t\t<li>PD/T2 TSE tra 5mm\n\t\t\t\t<ul>\n\t\t\t\t\t<li>fr&aring;n C6 till sellabotten</li>\n\t\t\t\t</ul>\n\t\t\t\t</li>\n\t\t\t</ul>\n\n\t\t\t<h2>&nbsp;</h2>\n\n\t\t\t<h3>PLANERING</h3>\n\n\t\t\t<p>Hj&auml;rna:</p>\n\n\t\t\t<p>Tra-sekvenser: HYFA-vinkel (a), medellinjen (b, c)</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p><img alt=\"\" src=\"https://region-uppsala.humany.net/blob?file=https%3A%2F%2Fhumany.blob.core.windows.net%2Fregion-uppsala%2Fguides%2Fplanning_brain_tra%2520sequence_1.png%3Fsv%3D2019-02-02%26sr%3Db%26sig%3DFUE2l1sGuXWCJeqsACf%252FIdEEw3Oj%252BLpW4L%252BkcuZMl8k%253D%26st%3D2021-11-07T23%253A32%253A27Z%26se%3D2021-11-08T11%253A32%253A27Z%26sp%3Dr&isSas=1\" style=\"width: 1200px; height: 401px;\" /></p>\n\n<p>&nbsp;</p>\n\n<p>DWI cor:</p>\n\n<p><img alt=\"\" src=\"https://region-uppsala.humany.net/blob?file=https%3A%2F%2Fhumany.blob.core.windows.net%2Fregion-uppsala%2Fguides%2Fplanning_cor_dwi_brain_5.png%3Fsv%3D2019-02-02%26sr%3Db%26sig%3D8Kr84oz8V6ftIE5PhmId5ydfmn6%252BvgzIkCgCYSiE5FU%253D%26st%3D2021-11-07T23%253A32%253A27Z%26se%3D2021-11-08T11%253A32%253A27Z%26sp%3Dr&isSas=1\" style=\"width: 295px; height: 266px;\" />​​​​​​​</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><font color=\"#ffffff\"><font face=\"Verdana\"><font size=\"5\"><font color=\"#ffffff\"><font face=\"Verdana\"><font size=\"5\"><font color=\"#ffffff\"><font face=\"Verdana\"><font size=\"5\">Bilder</font></font></font></font></font></font></font></font></font></p>\n",
+  "ConnectionId": "dd2a2099-4c36-4c14-b123-1be5216934f2",
+  "HandoverExists": true,
+  "EnableFeedback": true,
+  "ModifiedByDisplayName": "Caroline Lybeck",
+  "FirstPublishedByDisplayName": "Caroline Lybeck",
+  "FirstPublishedByDate": "2021-03-05T13:13:04.9371156Z",
+  "Translations": { "sv": 1353 },
+  "Perspectives": { "Default": "dd2a2099-4c36-4c14-b123-1be5216934f2" },
+  "Related": [
+    {
+      "Attributes": {},
+      "Categories": [705],
+      "Created": "2021-05-03T13:05:18.5747898Z",
+      "FirstPublishedDate": "2021-05-03T13:09:36.3171814Z",
+      "Id": 1828,
+      "Modified": "2021-10-25T07:44:23.9613658Z",
+      "Tags": [
+        {
+          "Id": 712,
+          "TotalMatches": 0,
+          "Title": null,
+          "Symbol": null,
+          "DefaultIcon": null,
+          "ActiveIcon": null
+        }
+      ],
+      "Read": null,
+      "RelativeUrl": "1828/hjarna-cholesteatom-temporalben/",
+      "Title": "Hjärna cholesteatom temporalben",
+      "Type": "Guide",
+      "ModifiedByDisplayName": null,
+      "FirstPublishedByDisplayName": null
+    },
+    {
+      "Attributes": {},
+      "Categories": [705],
+      "Created": "2021-05-03T13:18:08.442374Z",
+      "FirstPublishedDate": "2021-05-03T13:22:48.5879281Z",
+      "Id": 1831,
+      "Modified": "2021-10-25T08:11:48.5447308Z",
+      "Tags": [
+        {
+          "Id": 712,
+          "TotalMatches": 0,
+          "Title": null,
+          "Symbol": null,
+          "DefaultIcon": null,
+          "ActiveIcon": null
+        }
+      ],
+      "Read": null,
+      "RelativeUrl": "1831/hjarna-pulssynkroniserad-tinnitus/",
+      "Title": "Hjärna pulssynkroniserad tinnitus",
+      "Type": "Guide",
+      "ModifiedByDisplayName": null,
+      "FirstPublishedByDisplayName": null
+    },
+    {
+      "Attributes": {},
+      "Categories": [705],
+      "Created": "2021-04-06T09:34:43.447042Z",
+      "FirstPublishedDate": "2021-04-06T09:40:59.0205832Z",
+      "Id": 1525,
+      "Modified": "2021-10-25T08:03:25.6322292Z",
+      "Tags": [
+        {
+          "Id": 712,
+          "TotalMatches": 0,
+          "Title": null,
+          "Symbol": null,
+          "DefaultIcon": null,
+          "ActiveIcon": null
+        }
+      ],
+      "Read": null,
+      "RelativeUrl": "1525/hjarna-vaskulit-gd/",
+      "Title": "Hjärna Vaskulit + Gd",
+      "Type": "Guide",
+      "ModifiedByDisplayName": null,
+      "FirstPublishedByDisplayName": null
+    },
+    {
+      "Attributes": {},
+      "Categories": [705],
+      "Created": "2021-04-06T09:28:43.9198033Z",
+      "FirstPublishedDate": "2021-04-06T09:32:04.67081Z",
+      "Id": 1524,
+      "Modified": "2021-09-28T15:27:31.2183384Z",
+      "Tags": [
+        {
+          "Id": 712,
+          "TotalMatches": 0,
+          "Title": null,
+          "Symbol": null,
+          "DefaultIcon": null,
+          "ActiveIcon": null
+        }
+      ],
+      "Read": null,
+      "RelativeUrl": "1524/aneurysm-screening/",
+      "Title": "Aneurysm screening",
+      "Type": "Guide",
+      "ModifiedByDisplayName": null,
+      "FirstPublishedByDisplayName": null
+    }
+  ],
+  "Breadcrumb": [],
+  "PerspectiveKey": null,
+  "SeoMetaDescription": null,
+  "SeoAllowIndex": null,
+  "Attributes": {},
+  "Categories": [705],
+  "Created": "2021-03-05T13:07:16.0702088Z",
+  "FirstPublishedDate": "2021-03-05T13:13:04.9404128Z",
+  "Id": 1353,
+  "Modified": "2021-05-21T05:40:03.0261523Z",
+  "Tags": [
+    {
+      "Id": 712,
+      "TotalMatches": 152,
+      "Title": "MR",
+      "Symbol": { "Type": "", "Content": "" },
+      "DefaultIcon": null,
+      "ActiveIcon": null
+    }
+  ],
+  "Read": null,
+  "RelativeUrl": "1353/hjarna-hals-dissektion/",
+  "Title": "Hjärna Hals Dissektion",
+  "Type": "Solution"
+}
