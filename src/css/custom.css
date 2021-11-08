@@ -14,7 +14,7 @@ main h4 {
 }
 
 .top-container {
-  @apply md:flex md:gap-5 md:items-start mb-5 w-full;
+  @apply mb-5 mt-4 md:flex md:gap-5 md:items-start w-full;
 }
 
 .top-container ul {
@@ -25,21 +25,18 @@ main h4 {
   @apply bg-gray-100 px-4 py-3 md:w-3/5;
 }
 .left-info-container.erik-new {
-  @apply bg-gray-100 px-4 py-3 md:w-3/5 rounded-md shadow-md;
+  @apply rounded-md shadow-md;
 }
 
 .right-info-container {
-  @apply mt-4 md:mt-0 md:w-2/5;
+  @apply md:mt-0 md:w-2/5;
 }
 
 .right-info-container.erik-new {
-  @apply bg-gray-100 overflow-hidden rounded-md shadow-md mt-4 md:mt-0 md:w-2/5;
+  @apply bg-gray-100 overflow-hidden rounded-md shadow-md;
 }
 
 .right-info-container > div {
-  @apply p-3;
-}
-.right-info-container.erik-new > div {
   @apply p-3;
 }
 

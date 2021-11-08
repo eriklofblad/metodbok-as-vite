@@ -17,6 +17,7 @@ main h4 {
 
 .top-container {
   margin-bottom: 1.25rem;
+  margin-top: 1rem;
   width: 100%;
 }
 
@@ -58,25 +59,8 @@ main h4 {
 }
 .left-info-container.erik-new {
   border-radius: 0.375rem;
-  --tw-bg-opacity: 1;
-  background-color: #f5f5f5;
-  background-color: rgba(245, 245, 245, var(--tw-bg-opacity));
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
   --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-@media (min-width: 768px) {
-
-  .left-info-container.erik-new {
-    width: 60%;
-  }
-}
-
-.right-info-container {
-  margin-top: 1rem;
 }
 
 @media (min-width: 768px) {
@@ -91,7 +75,6 @@ main h4 {
 }
 
 .right-info-container.erik-new {
-  margin-top: 1rem;
   overflow: hidden;
   border-radius: 0.375rem;
   --tw-bg-opacity: 1;
@@ -101,21 +84,7 @@ main h4 {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-@media (min-width: 768px) {
-
-  .right-info-container.erik-new {
-    margin-top: 0px;
-  }
-
-  .right-info-container.erik-new {
-    width: 40%;
-  }
-}
-
 .right-info-container > div {
-  padding: 0.75rem;
-}
-.right-info-container.erik-new > div {
   padding: 0.75rem;
 }
 
