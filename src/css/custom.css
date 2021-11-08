@@ -29,14 +29,14 @@ main h4 {
   @apply mt-4 md:mt-0 md:w-2/5;
 }
 
-.right-info-container-new {
+.right-info-container.erik-new {
   @apply bg-gray-100 overflow-hidden rounded-md shadow-md mt-4 md:mt-0 md:w-2/5;
 }
 
 .right-info-container > div {
   @apply p-3;
 }
-.right-info-container-new > div {
+.right-info-container.erik-new > div {
   @apply p-3;
 }
 
@@ -56,15 +56,15 @@ main h4 {
   @apply bg-oldOrange !important;
 }
 
-.right-info-container-new .yellow-container {
+.right-info-container.erik-new .yellow-container {
   @apply bg-yellow-200 text-yellow-900 !important;
 }
 
-.right-info-container-new .pink-container {
+.right-info-container.erik-new .pink-container {
   @apply bg-red-200 text-red-900 !important;
 }
 
-.right-info-container-new .orange-container {
+.right-info-container.erik-new .orange-container {
   @apply bg-blue-200 text-blue-900 !important;
 }
 

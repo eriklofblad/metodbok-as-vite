@@ -1,10 +1,14 @@
-import * as markup from "./testpage2.json";
+//@ts-check
 
-const parser = new DOMParser();
+// import * as markup from "./testpage2.json";
 
-const doc = parser.parseFromString(markup.Body, "text/html");
+// const parser = new DOMParser();
 
-const table = doc.querySelector("table");
+// const doc = parser.parseFromString(markup.Body, "text/html");
+
+// const table = doc.querySelector("table");
+
+const table = document.querySelector("table");
 
 const firstContainer = table.querySelector(
   'td[style*="background-color: rgb(238, 238, 238);"]'
@@ -22,17 +26,20 @@ const orangeContainer = table.querySelector(
 
 const topRightContainer = table.querySelector("table");
 
-console.log(orangeContainer);
+// console.log(orangeContainer);
 
-const targetDiv = document.getElementById("target-div");
+// const targetDiv = document.getElementById("target-div");
+const targetDiv = document.createElement("div");
 
 targetDiv.innerHTML = `
+<link href="https://eriklofblad.github.io/metodbok-as-vite/out/custom.css" rel="stylesheet" wfd-invisible="true" />
+
   <div class="top-container">
     <div class="left-info-container">
       ${firstContainer.innerHTML}
     </div>
-    <div class="right-info-container">
-      <div>
+    <div class="right-info-container-new">
+      <div class="right-top-container">
         <table>
         ${topRightContainer ? topRightContainer.innerHTML : ""}
         </table>
@@ -49,3 +56,22 @@ targetDiv.innerHTML = `
     </div>
   </div
 `;
+
+table.parentNode.replaceChild(targetDiv, table);
+
+const innerTableRows = document.querySelectorAll(
+  ".right-info-container-new tr"
+);
+
+/** @type Node[] */
+const pRows = [];
+
+innerTableRows.forEach((row) => {
+  const pRow = document.createElement("p");
+  row.childNodes.forEach((td) => {
+    pRow.innerHTML += td.innerHTML;
+  });
+  pRows.push(pRow);
+});
+
+document.querySelector(".right-top-container").replaceChildren(...pRows);
