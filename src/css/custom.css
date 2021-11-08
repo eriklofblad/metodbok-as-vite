@@ -36,6 +36,9 @@ main h4 {
 .right-info-container > div {
   @apply p-3;
 }
+.right-info-container-new > div {
+  @apply p-3;
+}
 
 .right-info-container p {
   @apply text-current;
