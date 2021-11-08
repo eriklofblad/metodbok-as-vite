@@ -127,15 +127,19 @@ pre {
 }
 
 .alert {
-  @apply my-3 px-4 py-3 rounded-md text-lg bg-blue-200 text-blue-900 !important;
+  @apply my-3 px-4 py-3 rounded-md text-lg bg-blue-200 text-blue-900;
+}
+
+.alert p {
+  @apply text-current;
 }
 
 .alert-warning {
-  @apply bg-yellow-200 text-yellow-900 !important;
+  @apply bg-yellow-200 text-yellow-900;
 }
 .alert-danger {
-  @apply bg-red-200 text-red-900 !important;
+  @apply bg-red-200 text-red-900;
 }
 .alert-positive {
-  @apply bg-green-200 text-green-900 !important;
+  @apply bg-green-200 text-green-900;
 }
