@@ -8,25 +8,29 @@
     <link href="/src/css/tailwind.css" rel="stylesheet" />
     <!-- <link href="/src/css/custom.css" rel="stylesheet" /> -->
     <link href="/src/css/custom.css" rel="stylesheet" />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/default.min.css"
-    />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+    /> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
     <script>
       hljs.highlightAll();
-    </script>
+    </script> -->
   </head>
   <body>
     <h2>Förutsättningar</h2>
     <p>
       För att dessa komponenter ska kunna användas och se ut som de gör här
-      behövs en separat CSS-fil med med all styling.
+      behövs en separat CSS-fil med med all styling. För att lägga till den
+      kopiera in följande HTML-kod i toppen på ditt dokument:
     </p>
+    <pre><code>
+      &lt;link href="https://eriklofblad.github.io/metodbok-as-vite/out/custom.css" rel="stylesheet" wfd-invisible="true" /&gt;
+    </code></pre>
 
     <h2>Standard toppanel</h2>
     <div class="top-container">
-      <div class="left-info-container">
+      <div class="left-info-container erik-new">
         <h3>Fr&aring;gest&auml;llning/indikation:</h3>
         <p>Indikationer...</p>
         <br />
@@ -37,7 +41,7 @@
           <li>förberedelser</li>
         </ul>
       </div>
-      <div class="right-info-container">
+      <div class="right-info-container erik-new">
         <div class="p-3">
           <p>
             <strong>Lab:</strong>
@@ -92,5 +96,24 @@
       &lt;/div&gt;
     </code></pre>
     <hr />
+    <h3>Varningar</h3>
+    <p>
+      Varningskomponenten kan användas för att verkligen understryka ett viktigt
+      budskap. De finns i några olika färger beroende på innebörden av
+      budskapet. Tänk på att inte använda denna komponent för mycket då det lätt
+      blir plottrigt och urvattnat då.
+    </p>
+    <div class="alert">
+      <p>En neutral varning</p>
+    </div>
+    <div class="alert alert-warning">
+      <p>En varning</p>
+    </div>
+    <div class="alert alert-danger">
+      <p>En varning som signalerar fara</p>
+    </div>
+    <div class="alert alert-positive">
+      <p>En positiv varning</p>
+    </div>
   </body>
 </html>

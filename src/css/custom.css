@@ -24,6 +24,9 @@ main h4 {
 .left-info-container {
   @apply bg-gray-100 px-4 py-3 md:w-3/5;
 }
+.left-info-container.erik-new {
+  @apply bg-gray-100 px-4 py-3 md:w-3/5 rounded-md shadow-md;
+}
 
 .right-info-container {
   @apply mt-4 md:mt-0 md:w-2/5;
@@ -120,4 +123,22 @@ main h4 {
 
 .text-grid h3 {
   @apply mb-1 mt-3;
+}
+
+pre {
+  @apply bg-gray-600 text-gray-100 mx-5 rounded mt-3;
+}
+
+.alert {
+  @apply mx-1 my-3 px-4 py-3 w-full rounded-md  text-lg bg-blue-200 text-blue-900;
+}
+
+.alert-warning {
+  @apply bg-yellow-200 text-yellow-900;
+}
+.alert-danger {
+  @apply bg-red-200 text-red-900;
+}
+.alert-positive {
+  @apply bg-green-200 text-green-900;
 }

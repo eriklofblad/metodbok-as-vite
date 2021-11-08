@@ -1,4 +1,4 @@
-const colors = require("tailwindcss/colors")
+const colors = require("tailwindcss/colors");
 
 module.exports = {
   purge: ["*.html"],
@@ -6,18 +6,18 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
-      colors:{
+      colors: {
         orange: colors.orange,
         metodbok: "#4e79cc",
         gray: colors.trueGray,
         oldYellow: "rgb(255, 255, 204)",
         oldPink: "rgb(255, 204, 255)",
-        oldOrange: "rgb(255, 153, 102)"
-      }
+        oldOrange: "rgb(255, 153, 102)",
+      },
     },
   },
   variants: {
     extend: {},
   },
   plugins: [],
-}
+};
