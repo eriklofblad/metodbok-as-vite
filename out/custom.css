@@ -257,7 +257,7 @@ pre {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
   margin-top: 0.75rem;
-  overflow: auto;
+  overflow-x: auto;
   border-radius: 0.25rem;
   --tw-bg-opacity: 1;
   background-color: #525252;
