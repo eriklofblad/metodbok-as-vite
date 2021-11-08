@@ -18,102 +18,103 @@
     </script> -->
   </head>
   <body>
-    <h3>Förutsättningar</h3>
-    <p>
-      För att dessa komponenter ska kunna användas och se ut som de gör här
-      behövs en separat CSS-fil med med all styling. För att lägga till den
-      kopiera in följande HTML-kod i toppen på ditt dokument:
-    </p>
-    <pre><code>
-      &lt;link href="https://eriklofblad.github.io/metodbok-as-vite/out/custom.css" rel="stylesheet" wfd-invisible="true" /&gt;
-    </code></pre>
+    <div class="w-3/5 mx-auto">
+      <h3>Förutsättningar</h3>
+      <p>
+        För att dessa komponenter ska kunna användas och se ut som de gör här
+        behövs en separat CSS-fil med med all styling. För att lägga till den
+        kopiera in följande HTML-kod i toppen på ditt dokument:
+      </p>
+      <pre><code>
+        &lt;link href="https://eriklofblad.github.io/metodbok-as-vite/out/custom.css" rel="stylesheet" wfd-invisible="true" /&gt;
+      </code></pre>
 
-    <h3>Standard toppanel</h3>
-    <div class="top-container">
-      <div class="left-info-container erik-new">
-        <h3>Fr&aring;gest&auml;llning/indikation:</h3>
-        <p>Indikationer...</p>
-        <br />
-        <h3>F&ouml;rberedelser:</h3>
-        <ul>
-          <li>Lista</li>
-          <li>med</li>
-          <li>förberedelser</li>
-        </ul>
-      </div>
-      <div class="right-info-container erik-new">
-        <div class="p-3">
-          <p>
-            <strong>Lab:</strong>
-          </p>
-          <p><strong>Tid:</strong></p>
+      <h3>Standard toppanel</h3>
+      <div class="top-container">
+        <div class="left-info-container erik-new">
+          <h3>Fr&aring;gest&auml;llning/indikation:</h3>
+          <p>Indikationer...</p>
+          <br />
+          <h3>F&ouml;rberedelser:</h3>
+          <ul>
+            <li>Lista</li>
+            <li>med</li>
+            <li>förberedelser</li>
+          </ul>
         </div>
-        <div class="yellow-container">
-          <p>Kontrastmedel iv: 350-400mgI/ml. Viktbaserat, se tabell</p>
-        </div>
-        <div class="pink-container">
-          <p>
-            Kvinnor 15- 45 &aring;r tillfr&aring;gas om graviditet
-            <a
-              href="https://publikdocplus.regionuppsala.se/Home/GetDocument?containerName=e0c73411-be4b-4fee-ac09-640f9e2c5d83&amp;reference=DocPlusSTYR-12613&amp;docId=DocPlusSTYR-12613"
-              ><i>R&ouml;ntgenunders&ouml;kning av kvinnor</i></a
-            >
-          </p>
-        </div>
-        <div class="orange-container">
-          <p>F&ouml;rv&auml;ntad dos CTDI/DLP:</p>
-        </div>
-      </div>
-    </div>
-
-    <h3>Kod</h3>
-
-    <pre><code id="info-container-code" class="html">
-      &lt;div class="top-container"&gt;
-        &lt;div class="left-info-container"&gt;
-          &lt;--- Innehåll i vänster behållare ----&gt;
-        &lt;/div&gt;
-        &lt;div class="right-info-container"&gt;
-          &lt;div&gt;
-            &lt;--- Innehåll i övre delen av höger behållare ---&gt;
-          &lt;/div&gt;
-          &lt;div class="yellow-container"&gt;
-            &lt;p&gt;Kontrastmedel iv: 350-400mgI/ml. Viktbaserat, se tabell&lt;/p&gt;
-          &lt;/div&gt;
-          &lt;div class="pink-container"&gt;
-            &lt;p&gt;
+        <div class="right-info-container erik-new">
+          <div class="p-3">
+            <p>
+              <strong>Lab:</strong>
+            </p>
+            <p><strong>Tid:</strong></p>
+          </div>
+          <div class="yellow-container">
+            <p>Kontrastmedel iv: 350-400mgI/ml. Viktbaserat, se tabell</p>
+          </div>
+          <div class="pink-container">
+            <p>
               Kvinnor 15- 45 &aring;r tillfr&aring;gas om graviditet
-              &lt;a
+              <a
                 href="https://publikdocplus.regionuppsala.se/Home/GetDocument?containerName=e0c73411-be4b-4fee-ac09-640f9e2c5d83&amp;reference=DocPlusSTYR-12613&amp;docId=DocPlusSTYR-12613"
-                &gt;&lt;i&gt;R&ouml;ntgenunders&ouml;kning av kvinnor&lt;/i&gt;&lt;/a
-              &gt;
-            &lt;/p&gt;
-          &lt;/div&gt;
-          &lt;div class="orange-container"&gt;
-            &lt;p&gt;F&ouml;rv&auml;ntad dos CTDI/DLP:&lt;/p&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
+                ><i>R&ouml;ntgenunders&ouml;kning av kvinnor</i></a
+              >
+            </p>
+          </div>
+          <div class="orange-container">
+            <p>F&ouml;rv&auml;ntad dos CTDI/DLP:</p>
+          </div>
+        </div>
+      </div>
+
+      <h3>Kod</h3>
+
+      <pre><code id="info-container-code" class="html">
+      &lt;div class="top-container"&gt;
+      &lt;div class="left-info-container"&gt;
+      &lt;--- Innehåll i vänster behållare ----&gt;
+      &lt;/div&gt;
+      &lt;div class="right-info-container"&gt;
+      &lt;div&gt;
+      &lt;--- Innehåll i övre delen av höger behållare ---&gt;
+      &lt;/div&gt;
+      &lt;div class="yellow-container"&gt;
+      &lt;p&gt;Kontrastmedel iv: 350-400mgI/ml. Viktbaserat, se tabell&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="pink-container"&gt;
+      &lt;p&gt;
+      Kvinnor 15- 45 &aring;r tillfr&aring;gas om graviditet
+      &lt;a
+      href="https://publikdocplus.regionuppsala.se/Home/GetDocument?containerName=e0c73411-be4b-4fee-ac09-640f9e2c5d83&amp;reference=DocPlusSTYR-12613&amp;docId=DocPlusSTYR-12613"
+      &gt;&lt;i&gt;R&ouml;ntgenunders&ouml;kning av kvinnor&lt;/i&gt;&lt;/a
+      &gt;
+      &lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="orange-container"&gt;
+      &lt;p&gt;F&ouml;rv&auml;ntad dos CTDI/DLP:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
       &lt;/div&gt;
     </code></pre>
-    <hr />
-    <h3>Varningar</h3>
-    <p>
-      Varningskomponenten kan användas för att verkligen understryka ett viktigt
-      budskap. De finns i några olika färger beroende på innebörden av
-      budskapet. Tänk på att inte använda denna komponent för mycket då det lätt
-      blir plottrigt och urvattnat då.
-    </p>
-    <div class="alert">
-      <p>En neutral varning</p>
-    </div>
-    <div class="alert alert-warning">
-      <p>En varning</p>
-    </div>
-    <div class="alert alert-danger">
-      <p>En varning som signalerar fara</p>
-    </div>
-    <div class="alert alert-positive">
-      <p>En positiv varning</p>
+      <h3>Varningar</h3>
+      <p>
+        Varningskomponenten kan användas för att verkligen understryka ett
+        viktigt budskap. De finns i några olika färger beroende på innebörden av
+        budskapet. Tänk på att inte använda denna komponent för mycket då det
+        lätt blir plottrigt och urvattnat då.
+      </p>
+      <div class="alert">
+        <p>En neutral varning</p>
+      </div>
+      <div class="alert alert-warning">
+        <p>En varning</p>
+      </div>
+      <div class="alert alert-danger">
+        <p>En varning som signalerar fara</p>
+      </div>
+      <div class="alert alert-positive">
+        <p>En positiv varning</p>
+      </div>
     </div>
   </body>
 </html>
