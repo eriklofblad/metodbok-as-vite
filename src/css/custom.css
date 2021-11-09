@@ -6,11 +6,11 @@ h5 {
 }
 
 main h3 {
-  @apply text-xl font-semibold;
+  @apply text-xl;
 }
 
 main h4 {
-  @apply text-lg font-semibold;
+  @apply text-lg;
 }
 
 .top-container {
@@ -142,4 +142,15 @@ pre {
 }
 .alert-positive {
   @apply bg-green-200 text-green-900;
+}
+
+.cke-wysiwyg-div h3 {
+  font-size: 1.25em;
+  line-height: 1.75em;
+  @apply normal-case;
+}
+.cke-wysiwyg-div h3 {
+  font-size: 1.125em;
+  line-height: 1.75em;
+  @apply normal-case;
 }
