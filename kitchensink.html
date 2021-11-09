@@ -131,6 +131,68 @@
           &lt;p&gt;En positiv varning&lt;/p&gt;
         &lt;/div&gt;
       </code></pre>
+      <h3>Rutnät med bilder</h3>
+      <p>
+        Används för att visa upp flera bilder bredvid varandra. Fördelen med
+        denna komponent jämfört med att använda sig av en tabell är att denna är
+        responsiv och anpassar sig efter skärmstorleken och visar bilderna på
+        flera rader på mindre skärmar. Det går även utmärkt att lägga till text
+        före och efter bilden. En sak att tänka på är dock att om det blir ojämn
+        mängd text före bilderna så kan man behöva lägga till en extra rad i
+        texten till bilden som har minst text för att bilderna ska linjera.
+      </p>
+      <div class="image-grid">
+        <div>
+          <p>Buk &ouml;vre, nativ</p>
+          <img
+            src="https://region-uppsala.humany.net/blob?file=https%3A%2F%2Fhumany.blob.core.windows.net%2Fregion-uppsala%2Fguides%2Fimage_1439.png%3Fsv%3D2019-02-02%26sr%3Db%26sig%3DFx5MnX30G15YeXRs%252FtnK1MBLDVhLtQXYelBKjDjdPOo%253D%26st%3D2021-11-01T23%253A15%253A43Z%26se%3D2021-11-02T11%253A15%253A43Z%26sp%3Dr&amp;isSas=1"
+          />
+        </div>
+        <div>
+          <p>Thorax, venfas</p>
+          <img
+            src="https://region-uppsala.humany.net/blob?file=https%3A%2F%2Fhumany.blob.core.windows.net%2Fregion-uppsala%2Fguides%2Fimage_1441.png%3Fsv%3D2019-02-02%26sr%3Db%26sig%3DIlVL2EP2ms76E%252FZkJUkw5DURGXjxpYniDA4dZF%252Bhm3Q%253D%26st%3D2021-11-01T23%253A15%253A43Z%26se%3D2021-11-02T11%253A15%253A43Z%26sp%3Dr&amp;isSas=1"
+          />
+          <p>Delay 50 sek</p>
+        </div>
+        <div>
+          <p>Buk, venfas</p>
+          <img
+            src="https://region-uppsala.humany.net/blob?file=https%3A%2F%2Fhumany.blob.core.windows.net%2Fregion-uppsala%2Fguides%2Fimage_1442.png%3Fsv%3D2019-02-02%26sr%3Db%26sig%3D4rwg8bRMruFWY380XMURwAt2JVNSMKwfFirkS0IaSk0%253D%26st%3D2021-11-01T23%253A15%253A43Z%26se%3D2021-11-02T11%253A15%253A43Z%26sp%3Dr&amp;isSas=1"
+          />
+          <p>+15 sek(scanstart 70 sek)</p>
+        </div>
+        <div>
+          <p>Buk &ouml;vre, senfas</p>
+          <img
+            src="https://region-uppsala.humany.net/blob?file=https%3A%2F%2Fhumany.blob.core.windows.net%2Fregion-uppsala%2Fguides%2Fimage_1572.png%3Fsv%3D2019-02-02%26sr%3Db%26sig%3D4K6BJwcvawmSJtR64vB8rkWTIM5Wy6gNNJ66q03zBrw%253D%26st%3D2021-11-01T23%253A15%253A43Z%26se%3D2021-11-02T11%253A15%253A43Z%26sp%3Dr&amp;isSas=1"
+          />
+          <p>Delay 3 min. efter inj. start</p>
+        </div>
+      </div>
+      <pre><code>
+        &lt;div class="image-grid"&gt;
+          &lt;div&gt;
+            &lt;p&gt;Buk &ouml;vre, nativ&lt;/p&gt;
+            &lt;img src="länk_till_bild" /&gt;
+          &lt;/div&gt;
+          &lt;div&gt;
+            &lt;p&gt;Thorax, venfas&lt;/p&gt;
+            &lt;img src="länk_till_bild" /&gt;
+            &lt;p&gt;Delay 50 sek&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div&gt;
+            &lt;p&gt;Buk, venfas&lt;/p&gt;
+            &lt;img src="länk_till_bild" /&gt;
+            &lt;p&gt;+15 sek(scanstart 70 sek)&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div&gt;
+            &lt;p&gt;Buk &ouml;vre, senfas&lt;/p&gt;
+            &lt;img src="länk_till_bild" /&gt;
+            &lt;p&gt;Delay 3 min. efter inj. start&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      </code></pre>
     </div>
   </body>
 </html>

@@ -103,7 +103,7 @@ main h4 {
 }
 
 .image-grid > div {
-  @apply flex flex-col items-center w-[45%] md:w-auto;
+  @apply flex flex-col items-center w-[45%] md:w-auto text-center;
 }
 
 .image-grid p {
