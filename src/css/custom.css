@@ -144,12 +144,12 @@ pre {
   @apply bg-green-200 text-green-900;
 }
 
-.cke-wysiwyg-div h3 {
+.cke_wysiwyg_div h3 {
   font-size: 1.25em;
   line-height: 1.75em;
   @apply normal-case;
 }
-.cke-wysiwyg-div h4 {
+.cke_wysiwyg_div h4 {
   font-size: 1.125em;
   line-height: 1.75em;
   @apply normal-case;
