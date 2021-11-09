@@ -313,13 +313,20 @@ pre {
   color: rgba(6, 78, 59, var(--tw-text-opacity));
 }
 
+.cke_wysiwyg_div h2 {
+  font-weight: 400;
+  text-transform: none;
+}
+
 .cke_wysiwyg_div h3 {
   font-size: 1.25em;
   line-height: 1.75em;
+  font-weight: 400;
   text-transform: none;
 }
 .cke_wysiwyg_div h4 {
   font-size: 1.125em;
   line-height: 1.75em;
+  font-weight: 400;
   text-transform: none;
 }
