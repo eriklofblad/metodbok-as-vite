@@ -317,6 +317,8 @@ pre {
   font-size: 1.25em;
   line-height: 1.75em;
   text-transform: none;
+}
+.cke-wysiwyg-div h4 {
   font-size: 1.125em;
   line-height: 1.75em;
   text-transform: none;
