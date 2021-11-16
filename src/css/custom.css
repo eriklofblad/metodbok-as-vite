@@ -82,8 +82,9 @@ main h4 {
   @apply border-t-0 py-3;
 }
 
+.as-table th:nth-child(1),
 .as-table td:nth-child(1) {
-  @apply border-l-0;
+  @apply border-l-0 text-left;
 }
 
 .as-table thead {

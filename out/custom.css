@@ -169,8 +169,9 @@ main h4 {
   padding-bottom: 0.75rem;
 }
 
-.as-table td:nth-child(1) {
+.as-table th:nth-child(1), .as-table td:nth-child(1) {
   border-left-width: 0px;
+  text-align: left;
 }
 
 .as-table thead {
