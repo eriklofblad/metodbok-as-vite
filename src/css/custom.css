@@ -13,6 +13,10 @@ main h4 {
   @apply text-lg;
 }
 
+/* main p {
+  @apply text-lg leading-5 my-2;
+} */
+
 .top-container {
   @apply mb-5 mt-4 md:flex md:gap-5 md:items-start w-full;
 }
@@ -162,3 +166,7 @@ pre {
   font-weight: 400;
   @apply normal-case;
 }
+/* .cke_wysiwyg_div main p {
+  font-size: 1.125em;
+  line-height: 1.5em;
+} */
