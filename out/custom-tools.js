@@ -18,12 +18,13 @@ function fetchDocument(docId) {
 }
 
 function insertDocument() {
-  console.log("running script");
   const targetDiv = document.getElementById("document-insert");
 
   if (!targetDiv) {
+    console.log("no insert div found");
     return;
   }
+  console.log("running script");
 
   const insertId = targetDiv.getAttribute("data-insert-id");
 
