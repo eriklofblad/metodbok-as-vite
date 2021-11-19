@@ -33,7 +33,21 @@ function insertDocument() {
   });
 }
 
-insertDocument();
+function insertDocumentById(docId) {
+  const targetDiv = document.getElementById("document-insert");
+
+  if (!targetDiv) {
+    console.log("no insert div found");
+    return;
+  }
+  console.log("running script");
+
+  fetchDocument(docId).then((insertBody) => {
+    targetDiv.innerHTML = insertBody;
+  });
+}
+
+// insertDocument();
 
 function testFunction() {
   console.log("kör testfunktionen");
