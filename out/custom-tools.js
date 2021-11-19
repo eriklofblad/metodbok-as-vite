@@ -17,10 +17,14 @@ function getOtherDocument(docId) {
 }
 
 console.log("running script");
-const targetDiv = document.getElementById("document-insert");
+let targetDiv = document.getElementById("document-insert");
 
-const insertId = targetDiv.getAttribute("data-insert-id");
+let insertId = targetDiv.getAttribute("data-insert-id");
 
 getOtherDocument(insertId).then((insertBody) => {
   targetDiv.innerHTML = insertBody;
 });
+
+function testFunction() {
+  console.log("kör testfunktionen");
+}
