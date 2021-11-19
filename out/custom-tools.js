@@ -21,6 +21,10 @@ function insertDocument() {
   console.log("running script");
   const targetDiv = document.getElementById("document-insert");
 
+  if (!targetDiv) {
+    return;
+  }
+
   const insertId = targetDiv.getAttribute("data-insert-id");
 
   fetchDocument(insertId).then((insertBody) => {
