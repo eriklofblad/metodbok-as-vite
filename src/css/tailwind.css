@@ -2,11 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-.heading-test {
-  @apply text-2xl text-red-500 text-center font-bold;
+@layer base {
+  .as-preflight ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .as-preflight *,
+  .as-preflight ::before,
+  .as-preflight ::after {
+    box-sizing: border-box; /* 1 */
+    border-width: 0; /* 2 */
+    border-style: solid; /* 2 */
+    border-color: currentColor; /* 2 */
+  }
+  .as-preflight hr {
+    height: 0; /* 1 */
+    color: inherit; /* 2 */
+    border-top-width: 1px; /* 3 */
+  }
 }
 
-h2 {
+/* h2 {
   @apply text-2xl;
 }
 
@@ -20,10 +38,10 @@ h4 {
 
 hr {
   @apply my-2;
-}
+} */
 
 /* Styling för tabbar */
-a.tablinks {
+/* a.tablinks {
   margin-right: 5px;
   padding: 3px 5px 0px 5px;
   text-decoration: none;
@@ -71,4 +89,4 @@ div.tab + div.tabcontent {
   to {
     opacity: 1;
   }
-}
+} */

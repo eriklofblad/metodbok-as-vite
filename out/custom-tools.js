@@ -46,6 +46,19 @@ function insertDocumentById(docId) {
     targetDiv.innerHTML = insertBody;
   });
 }
+function insertCompareDocument(docId) {
+  const targetDiv = document.getElementById("compare-container");
+
+  if (!targetDiv) {
+    console.log("no insert div found");
+    return;
+  }
+  console.log("running script");
+
+  fetchDocument(docId).then((insertBody) => {
+    targetDiv.innerHTML = insertBody;
+  });
+}
 
 // insertDocument();
 
