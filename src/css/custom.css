@@ -26,18 +26,15 @@ main h4 {
 }
 
 .left-info-container {
-  @apply bg-gray-100 px-4 py-3 md:w-3/5;
-}
-.left-info-container.erik-new {
-  @apply rounded-md shadow-md;
+  @apply bg-gray-100 px-4 py-3 md:w-3/5 rounded-md shadow-md;
 }
 
 .right-info-container {
-  @apply md:mt-0 md:w-2/5;
+  @apply md:mt-0 md:w-2/5 overflow-hidden rounded-md shadow-md;
 }
 
 .right-info-container.erik-new {
-  @apply bg-gray-100 overflow-hidden rounded-md shadow-md;
+  @apply bg-gray-100;
 }
 
 .right-info-container > div {

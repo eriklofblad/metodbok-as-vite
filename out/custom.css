@@ -44,6 +44,7 @@ main h4 {
 }
 
 .left-info-container {
+  border-radius: 0.375rem;
   --tw-bg-opacity: 1;
   background-color: #f5f5f5;
   background-color: rgba(245, 245, 245, var(--tw-bg-opacity));
@@ -51,6 +52,8 @@ main h4 {
   padding-right: 1rem;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 @media (min-width: 768px) {
@@ -59,7 +62,9 @@ main h4 {
     width: 60%;
   }
 }
-.left-info-container.erik-new {
+
+.right-info-container {
+  overflow: hidden;
   border-radius: 0.375rem;
   --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -77,13 +82,9 @@ main h4 {
 }
 
 .right-info-container.erik-new {
-  overflow: hidden;
-  border-radius: 0.375rem;
   --tw-bg-opacity: 1;
   background-color: #f5f5f5;
   background-color: rgba(245, 245, 245, var(--tw-bg-opacity));
-  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .right-info-container > div {
