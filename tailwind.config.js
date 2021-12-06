@@ -5,6 +5,13 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   mode: "jit",
   theme: {
+    screens: {
+      sm: "600px",
+      md: "900px",
+      lg: "1150px",
+      xl: "1400px",
+      "2xl": "1920px",
+    },
     extend: {
       colors: {
         orange: colors.orange,
