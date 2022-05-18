@@ -171,3 +171,16 @@ pre {
   font-size: 1.125em;
   line-height: 1.5em;
 } */
+div#document-insert {
+  animation-duration: 0.001s;
+  animation-name: insertDocument;
+}
+
+@keyframes insertDocument {
+  from {
+    opacity: 0.99;
+  }
+  to {
+    opacity: 1;
+  }
+}

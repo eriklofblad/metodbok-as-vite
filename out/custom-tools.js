@@ -24,9 +24,12 @@ function insertDocument() {
     console.log("no insert div found");
     return;
   }
-  console.log("running script");
-
   const insertId = targetDiv.getAttribute("data-insert-id");
+  if (!insertId) {
+    console.log("no insert div found");
+    return;
+  }
+  console.log("running script");
 
   fetchDocument(insertId).then((insertBody) => {
     targetDiv.innerHTML = insertBody;
