@@ -18,7 +18,7 @@ function fetchDocument(docId) {
 }
 
 function insertDocument() {
-  const targetDiv = document.getElementById("document-insert");
+  const targetDiv = document.getElementById("insert-content");
 
   if (!targetDiv) {
     console.log("no insert div found");
@@ -37,7 +37,7 @@ function insertDocument() {
 }
 
 function insertDocumentById(docId) {
-  const targetDiv = document.getElementById("document-insert");
+  const targetDiv = document.getElementById("insert-content");
 
   if (!targetDiv) {
     console.log("no insert div found");
