@@ -20,6 +20,7 @@ const App: React.FC<AppProps> = ({}) => {
       setShowButton(isProtocol);
     };
     document.addEventListener("animationstart", checkUrl, false);
+    checkUrl();
     return () =>
       document.removeEventListener("animationstart", checkUrl, false);
   }, [setShowButton]);
