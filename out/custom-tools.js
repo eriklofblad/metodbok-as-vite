@@ -29,7 +29,7 @@ function insertDocument() {
     console.log("no insert div found");
     return;
   }
-  console.log("running script");
+  console.log("inserting document");
 
   fetchDocument(insertId).then((insertBody) => {
     targetDiv.innerHTML = insertBody;
@@ -67,4 +67,18 @@ function insertCompareDocument(docId) {
 
 function testFunction() {
   console.log("kör testfunktionen");
+}
+
+function setContentId(id) {
+  const targetDiv = document.getElementById("insert-content");
+  if (targetDiv) {
+    if (targetDiv.getAttribute("data-insert-id")) {
+      console.log("Insert id is already set");
+      return;
+    }
+    targetDiv.setAttribute("data-insert-id", id);
+    console.log("New insert id:", targetDiv.getAttribute("data-insert-id"));
+  } else {
+    console.log("No target div found");
+  }
 }
