@@ -13,13 +13,15 @@ const App: React.FC<AppProps> = ({}) => {
   };
 
   useEffect(() => {
-    const interval = setInterval(() => {
+    const checkUrl = () => {
       const pathname = location.pathname;
       const regEx = new RegExp(/\/metodbok-as-test\/[^\/]+\/\d{2,6}/);
       const isProtocol = regEx.test(pathname);
       setShowButton(isProtocol);
-    }, 1000);
-    return () => clearInterval(interval);
+    };
+    document.addEventListener("animationstart", checkUrl, false);
+    return () =>
+      document.removeEventListener("animationstart", checkUrl, false);
   }, [setShowButton]);
   if (showButton) {
     return (
