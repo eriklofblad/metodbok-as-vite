@@ -150,6 +150,14 @@ pre {
   @apply bg-green-200 text-green-900;
 }
 
+.div-frame {
+  @apply border rounded-sm border-blue-500 p-4;
+}
+
+a.btn-link {
+  @apply py-1 px-2 bg-blue-700 text-blue-100 no-underline rounded;
+}
+
 .cke_wysiwyg_div h2 {
   font-weight: 400;
   @apply normal-case;

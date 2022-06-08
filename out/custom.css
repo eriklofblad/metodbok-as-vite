@@ -328,6 +328,30 @@ pre {
   color: rgba(6, 78, 59, var(--tw-text-opacity));
 }
 
+.div-frame {
+  border-radius: 0.125rem;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: #3b82f6;
+  border-color: rgba(59, 130, 246, var(--tw-border-opacity));
+  padding: 1rem;
+}
+
+a.btn-link {
+  border-radius: 0.25rem;
+  --tw-bg-opacity: 1;
+  background-color: #1d4ed8;
+  background-color: rgba(29, 78, 216, var(--tw-bg-opacity));
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  --tw-text-opacity: 1;
+  color: #dbeafe;
+  color: rgba(219, 234, 254, var(--tw-text-opacity));
+  text-decoration: none;
+}
+
 .cke_wysiwyg_div h2 {
   font-weight: 400;
   text-transform: none;
