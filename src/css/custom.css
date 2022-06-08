@@ -155,7 +155,7 @@ pre {
 }
 
 a.btn-link {
-  @apply py-1 px-2 bg-blue-700 text-blue-100 no-underline rounded;
+  @apply py-1 px-2 bg-blue-700 !text-blue-100 no-underline rounded inline-block;
 }
 
 .cke_wysiwyg_div h2 {

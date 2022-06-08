@@ -338,6 +338,7 @@ pre {
 }
 
 a.btn-link {
+  display: inline-block;
   border-radius: 0.25rem;
   --tw-bg-opacity: 1;
   background-color: #1d4ed8;
@@ -346,9 +347,9 @@ a.btn-link {
   padding-bottom: 0.25rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  --tw-text-opacity: 1;
-  color: #dbeafe;
-  color: rgba(219, 234, 254, var(--tw-text-opacity));
+  --tw-text-opacity: 1 !important;
+  color: #dbeafe !important;
+  color: rgba(219, 234, 254, var(--tw-text-opacity)) !important;
   text-decoration: none;
 }
 
