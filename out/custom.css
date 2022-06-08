@@ -331,6 +331,7 @@ pre {
 .div-frame {
   border-radius: 0.125rem;
   border-width: 1px;
+  border-style: solid;
   --tw-border-opacity: 1;
   border-color: #3b82f6;
   border-color: rgba(59, 130, 246, var(--tw-border-opacity));
@@ -343,10 +344,10 @@ a.btn-link {
   --tw-bg-opacity: 1;
   background-color: #1d4ed8;
   background-color: rgba(29, 78, 216, var(--tw-bg-opacity));
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
   --tw-text-opacity: 1 !important;
   color: #dbeafe !important;
   color: rgba(219, 234, 254, var(--tw-text-opacity)) !important;
